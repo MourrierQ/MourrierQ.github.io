@@ -6,8 +6,11 @@
 .About h1 {
   color: #083b55;
   font-size: 18px;
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 20px;
 }
 
 .About p {
   line-height: 1.5em;
+  width: 95%;
 }
