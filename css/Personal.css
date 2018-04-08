@@ -4,6 +4,8 @@
   font-weight: 300;
   grid-template-columns: 1fr 1fr;
   margin-top: 20px;
+  border-top: 15px solid #d44724;
+  box-sizing: border-box;
 }
 
 .Personal .PersonalItem {
