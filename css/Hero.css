@@ -1,27 +1,45 @@
 .Hero {
   text-align: center;
-  background-color: #083b55;
-  color: #fff;
+  color: #6dcfdb;
   position: relative;
-  grid-column: 1 / -1;
+  grid-column: 2/ -1;
 }
 
 .Hero .textBox {
   position: absolute;
-  text-align: left;
+  text-align: right;
   top: 50%;
-  left: 20px;
+  right: 20px;
   transform: translate(0, -50%);
 }
 
 .Hero .textBox h1 {
   font-weight: 300;
-  font-size: 40px;
+  font-size: 60px;
   margin: 0;
+  display: flex;
+}
+
+.Hero .textBox h1 span {
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .Hero .textBox h2 {
   font-weight: 300;
   font-size: 20px;
   margin: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.Hero .textBox h2 span {
+  width: 8px;
+  height: 8px;
+  background-color: #6dcfdb;
+  border-radius: 50%;
+  margin: 0 10px;
+  margin-top: 5px;
 }

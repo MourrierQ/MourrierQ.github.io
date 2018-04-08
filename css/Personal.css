@@ -1,0 +1,62 @@
+.Personal {
+  display: grid;
+  color: white;
+  font-weight: 300;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+}
+
+.Personal .PersonalItem {
+  background-color: #f4522b;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.Personal .PersonalItem p {
+  font-size: 18px;
+}
+
+.Personal .PersonalItem h1 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.Personal .PersonalItem ul {
+  list-style: none;
+}
+
+.Personal .PersonalItem ul li {
+  display: flex;
+  padding: 10px 0;
+}
+
+.Personal .PersonalItem ul li em {
+  width: 30%;
+}
+
+.Personal .PersonalItem ul li span {
+  width: 65%;
+}
+
+#passions {
+  background-color: #fd8c00;
+}
+
+#passions p {
+  font-size: 16px;
+}
+
+#p1 {
+  display: block;
+  width: 70%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#p2 {
+  display: block;
+  width: 70%;
+  margin-right: 0;
+  margin-left: auto;
+}
