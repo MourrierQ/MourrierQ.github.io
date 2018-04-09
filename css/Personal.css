@@ -45,6 +45,10 @@
   background-color: #fd8c00;
 }
 
+#passions h1 {
+  margin-bottom: 40px;
+}
+
 #passions p {
   font-size: 16px;
 }
