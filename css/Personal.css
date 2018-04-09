@@ -4,12 +4,13 @@
   font-weight: 300;
   grid-template-columns: 1fr 1fr;
   margin-top: 20px;
-  border-top: 15px solid #d44724;
+  /* border-top: 15px solid #d44724; */
+  border-top: 15px solid #4bb6c4;
   box-sizing: border-box;
 }
 
 .Personal .PersonalItem {
-  background-color: #f4522b;
+  background-color: #69c9d6;
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
@@ -42,7 +43,7 @@
 }
 
 #passions {
-  background-color: #fd8c00;
+  background-color: #6dcfdb;
 }
 
 #passions h1 {
